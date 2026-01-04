@@ -1,0 +1,8 @@
+services:
+  audio-extractor-backend:
+    build:
+      context: ./audio-extractor-backend
+      dockerfile: Dockerfile
+    container_name: audio-extractor-backend
+    ports:
+      - "8080:8080"
